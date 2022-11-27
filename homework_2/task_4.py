@@ -14,3 +14,4 @@ else:
     print (new_list)
     f = open('python_start_homework/homework_2/file.txt', 'r')
     print(new_list[int(f.readline())] * new_list[int(f.readline(2))] * new_list[int(f.readline(3))])
+    f.close()
